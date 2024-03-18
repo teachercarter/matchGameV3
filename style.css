@@ -1,0 +1,71 @@
+body {
+    margin: 1em;
+    background: lightblue;
+    text-align: center;
+    margin: 0 0 10px 0;
+}
+
+game {
+    display: inline;
+}
+
+.card {
+    width: 80px;
+    height: 120px;
+    margin: 5px;
+    border: 2px solid black;
+    background-color: rgba(0, 0, 0, 0.37);
+    background-size: 80px 120px;
+    display: inline-block; /* DO NOT CHANGE */
+}
+
+img {
+    position: relative;
+}
+
+@keyframes mymove {
+    from {
+        left: 0px;
+    }
+
+    to {
+        left: 0px;
+    }
+}
+
+@keyframes mynewmove {
+    from {
+        top: 0px;
+    }
+
+    to {
+        top: 200px;
+    }
+}
+
+@keyframes dance {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+
+    25% {
+        left: 200px;
+        top: 0px;
+    }
+
+    50% {
+        left: 200px;
+        top: 200px;
+    }
+
+    75% {
+        left: 0px;
+        top: 200px;
+    }
+
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
